@@ -1,0 +1,148 @@
+.zaglavlje {
+  height: 500px;
+  background: url('zaglavlje.jpg') no-repeat;
+  background-size: cover;
+}
+.zaglavlje a {
+  color: #fff;
+  font-size: 24pt;
+  text-decoration: none;
+  display: block;
+  margin-top: 30px;
+  margin-left: 30px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+.zaglavlje p {
+  color: #fff;
+  font-size: 32pt;
+  text-align: center;
+  width: 100%;
+  margin-top: 150px;
+  font-family: 'Lobster', cursive;
+}
+
+.navigacija {
+	height: 100px;
+	background-color: #F1C40F;
+}
+.navigacija li {
+	display: inline;
+	margin-right: 40px;
+	list-style-type: none;
+}
+.navigacija li a {
+	line-height: 100px;
+	color: #000;
+	text-decoration: none;
+	font-size: 21pt;
+}
+
+@media screen and (max-width:760px) {
+  .navigacija li {
+    display: block;
+    background-color: #F1C40F;
+    text-align: center;
+  }
+  .navigacija {
+    height: auto;
+  }
+}
+
+.galerija h1 {
+	text-transform: uppercase;
+	font-size: 24pt;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.galerija .col-6 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.galerija .slika .maska {
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.galerija .slika:hover .maska {
+  opacity: 0.7;
+}
+
+.galerija .slika .maska p {
+  color: #fff;
+  font-size: 18pt;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.galerija .slika .maska p a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Kontakt {
+  background-color: #F1C40F;
+  padding: 50px;
+}
+
+.Kontakt input [type=text],
+.Kontakt input [type=email],
+.Kontakt textarea {
+  border: 2px solid #000;
+  color: blue;
+}
+
+.Kontakt ::placeholder {
+  color: red;
+}
+
+.Kontakt button[type=submit] {
+  color: #fff;
+  background-color: #000;
+  border: 0;
+}
+
+.Kontakt h2 {
+  font-size: 24px;
+  font-family: "Lobster", cursive;
+}
+
+.footer {
+  background: url("footer.jpg") no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+.footer ul {
+  position: absolute;
+  bottom: 50px
+  right: 50px
+}
+ .footer ul li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 30px;
+}
+ .footer li a {
+   color: #fff;
+   text-decoration: none;
+   font-size: 10pt;
+}
+
+ .footer .title {
+   display: block;
+   height: 170px;
+   width: 460px;
+   position: absolute;
+   top: 100px;
+   left: 100px;
+}
